@@ -1,0 +1,57 @@
+.sign .back{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    left: 0;
+    top: 120px;
+    height: calc(100vh - 160px);
+    background: url(../images/img-1.jpg) center center/cover;
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.sign form{
+    padding: 10px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+@media(min-width:1001px){
+    form{
+        width: 50%;
+    } 
+    .sign h1{
+        color: black
+        ;
+    }
+}
+@media(max-width:1000px){
+    form{
+        width: 90%;
+    } 
+}
+h2{
+    font-size: 30px;
+    color: white;
+}
+ input{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 17px;
+    margin-top: 20px;
+    /* border: 1px solid #ddd; */
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+}
+
+input[type='submit']{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(99, 95, 95);
+    padding: 14px;
+}

@@ -1,0 +1,26 @@
+.products .back{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    left: 0;
+    top: 120px;
+    height: calc(100vh - 120px);
+    background: url(../images/img-1.jpg) center center/cover;
+}
+.products{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 120px);
+}
+.products h2{
+    font-size: 60px;
+}
+
+@media(max-width:767px){
+    .products h2{
+        font-size: 30px;
+    }
+}

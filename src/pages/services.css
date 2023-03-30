@@ -1,0 +1,20 @@
+.services{
+    height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services h2{
+    font-size: 60px;
+    color: white;
+}
+
+.services .back{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    left: 0;
+    top: 120px;
+    height: calc(100vh - 120px);
+    background: url(../images/img-2.jpg) center center/cover;
+}

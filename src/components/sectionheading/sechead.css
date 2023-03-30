@@ -1,0 +1,20 @@
+.sec_heading{
+    margin: 40px ;
+}
+.sec_heading h2{
+    text-align: center;
+    color: black;
+    margin: auto;
+    /* background-color: rgb(232, 12, 82); */
+    /* color: white; */
+    text-transform: capitalize;
+    border-radius: 22px;
+    padding: 10px 7px;
+    font-size: 25px;
+}
+@media(max-width:767px){
+    .sec_heading h2{
+        /* font-size: 20px; */
+        /* padding: 0; */
+    }
+}
